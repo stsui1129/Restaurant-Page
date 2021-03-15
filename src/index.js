@@ -1,1 +1,3 @@
-console.log ("Hellooooo")
+import initPageLoad from "./initial-page-load"
+
+initPageLoad();
