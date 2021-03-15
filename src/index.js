@@ -1,3 +1,3 @@
-import initPageLoad from "./initial-page-load"
+import initPageLoad from "./initial-page-load";
 
 initPageLoad();
