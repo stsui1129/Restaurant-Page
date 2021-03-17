@@ -1,4 +1,57 @@
+html,
+body {
+    height: 100%;
+}
+
+#content {
+    background-color: lavenderblush;
+    height: 100%;
+}
+
 .nav-btns {
     display: inline-block;
-    margin: 0 10px;
+    font-size: 30px; 
+    margin: 25px 50px;
+}
+ul {
+    background-color: aqua;
+    text-align: center;
+}
+
+.hide-content {
+    display: none;
+}
+
+.home-content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.home-description {
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.menu-para {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 200px;
+}
+
+.contact-para {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 200px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: black;
 }

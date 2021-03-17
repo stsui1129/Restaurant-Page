@@ -6,7 +6,8 @@ const loadMenu = function() {
     contentDiv.appendChild(menuDiv);
 
     const para = document.createElement("p");
-    para.textContent = "Lorem ipsum this is just random text";
+    para.classList.add("menu-para")
+    para.textContent = "Lorem ipsum this is just random text for menu tab";
     menuDiv.appendChild(para);
 }
 
