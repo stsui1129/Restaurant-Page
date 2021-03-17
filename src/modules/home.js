@@ -1,16 +1,16 @@
-const loadAbout = function() {
+const loadHome = function() {
     const contentDiv = document.querySelector("#content");
-    const aboutDiv = document.createElement("div");
-    aboutDiv.addClass("about-content");
+    const homeDiv = document.createElement("div");
+    homeDiv.classList.add("home-content");
   
     const header1 = document.createElement("h1");
     header1.textContent = "Tea Delight";
     const header2 = document.createElement("h2");
     header2.textContent = "Best tea around town";
 
-    contentDiv.appendChild(aboutDiv);
-    aboutDiv.appendChild(header1);
-    aboutDiv.appendChild(header2);
+    contentDiv.appendChild(homeDiv);
+    homeDiv.appendChild(header1);
+    homeDiv.appendChild(header2);
 }
 
-export default loadAbout;
+export default loadHome;
