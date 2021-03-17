@@ -1,13 +1,12 @@
-import loadAbout from './about';
+import loadHome from './home';
 import loadMenu from './menu';
 import loadContact from './contact';
 
-
-function initPageLoad() {
-    const content = document.getElementById("content");
-    loadAbout();
+const initPageLoad = () => { 
+    
+    loadHome();
     loadMenu();
     loadContact();
-}
+};
 
 export default initPageLoad;

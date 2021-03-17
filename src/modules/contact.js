@@ -1,10 +1,12 @@
 const loadContact = function() {
     const contentDiv = document.querySelector("#content");
+    
     const contactDiv = document.createElement("div");
-    const para = document.createElement("p");
-    para.textContent = "Lorem ipsum this is just random text";
-
+    contactDiv.addClass("contact-content");
     contentDiv.appendChild(contactDiv);
+
+    const para = document.createElement("p");
+    para.textContent = "Lorem ipsum this is just random text again";
     contactDiv.appendChild(para);
 }
 
